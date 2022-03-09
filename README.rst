@@ -7,6 +7,9 @@ What Is It ?
    :target: https://github.com/thompson318/what-is-it
    :alt: Logo
 
+.. image:: https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg 
+   :target: CODE_OF_CONDUCT.md 
+
 Author: Stephen Thompson
 
 This is a browser based game, challenging the player to identify drawings 

@@ -9,8 +9,8 @@ What Is It ?
 
 |
 
-.. image:: https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg 
-   :target: CODE_OF_CONDUCT.md 
+.. image:: https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg
+   :target: CODE_OF_CONDUCT.md
 
 .. image:: https://img.shields.io/twitter/follow/scikit_surgery?style=social
    :target: https://twitter.com/scikit_surgery?ref_src=twsrc%5Etfw
@@ -18,14 +18,25 @@ What Is It ?
 
 Author: Stephen Thompson
 
-This is a browser based game, challenging the player to identify drawings 
-taken from Google's `Quickdraw`_ data set. Each drawing is drawn by a human and 
+what-is-it is a browser based game. It was developed primarily to study and
+communicate the problem of "limited field of view", how does only seeing
+part of an object effect our ability to identify the object? Limited field of
+view is a common problem in key hole surgery where the surgeon is only
+able to see a tiny part of the anatomy through a key hole camera.
+
+To make what-is-it playable for non surgeons we've used drawings of
+everyday objects taken from The from Google's `Quickdraw`_ data set.
+Each drawing is drawn by a human and
 correctly identified by Google's AI.
 
-Once you've warmed up on the full image, we introduce an image mask based on a 
-medical ultrasound probe to make it harder. 
-The intention is to examine the factors that make identification using 
-partial visibility and noise more difficult. The presence of speckle type noise is 
+The game starts with complete images, and a multiple choice list from which
+you can select the most likely answer. Once you've warmed up
+(got 3 correct answers in a row)
+we introduce an image mask based on a
+medical ultrasound probe to make it harder. We used an ultrasound probe
+as a second aspect of the game design was to study ways to simulate
+ultrasound imaging for the general public.
+The presence of speckle type noise is
 often cited as a difficulty in using ultrasound imaging.
 
 Play it `here`_
